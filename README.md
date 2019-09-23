@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Vela-React-Challenge
+Vela-React-Challenge
+
+# To run npm start
+
+# To run tests npm test
+
+# please make sure you have an internet connection as they are some libraries that needs to be loaded using the internet 
+
+
+
+>>>>>>> 3659562b959dc5c272a24dbd910d62e83918f345
