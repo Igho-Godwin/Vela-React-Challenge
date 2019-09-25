@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import SideBarMenu from './SideBarMenu.js';
 
-class SideBar extends Component {
- 
-    render () {
+const SideBar = () =>{
         return (
          
             <div className='background-color-white padding-top-50 padding-bottom-50 padding-top-25 height-150 padding-left-0 padding-right-0 padding-bottom-20'>
@@ -67,9 +65,7 @@ class SideBar extends Component {
         
         )
     }
-}
 
-    
 
 
 export default SideBar;

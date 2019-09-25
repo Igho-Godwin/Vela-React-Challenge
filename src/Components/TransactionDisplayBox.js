@@ -1,26 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import PropTypes from 'prop-types';
 
-class TransactionDisplayBox extends Component {
- 
-    render () {
-        return (
-         
-         
-                            
-                        
-                                
-                            <div className='padding-top-10 padding-bottom-10'>
+
+const TransactionDisplayBox = (props) => { 
+    
+        return(     
+        
+                         <div className='padding-top-10 padding-bottom-10'>
                                     
                                 <div className='display-inline-block' >
                                         
                                     <div className='font-10 daily-transaction-text-color-blackShade'>
-                                            {this.props.title}
+                                            {props.title}
                                     </div>
                                     
                                     <div className='font-18 daily-volume-textColor-blackShade'>
-                                            {new Intl.NumberFormat().format(this.props.amount)}
+                                        {new Intl.NumberFormat().format(props.amount)}
                                     </div>
                                 </div>
             
@@ -38,7 +34,7 @@ class TransactionDisplayBox extends Component {
         )
     }
      
-}
+
 
 // Checks Prop Values
 TransactionDisplayBox.propTypes = {

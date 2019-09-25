@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import TransactionDisplayBox from './TransactionDisplayBox.js';
 
@@ -6,11 +6,10 @@ import PaymentTable from './PaymentTable.js';
 
 import PaymentTableFilter from './PaymentTableFilter.js';
 
-class Main extends Component {
- 
-    render () {
-        return (
-         
+const Main = () =>{
+       
+         return (
+             
             <div className='col-sm-10 padding-left-40 padding-top-50 '>
             
                 <div className='row'>
@@ -142,7 +141,7 @@ class Main extends Component {
          
         
         )
-    }
+    
 }
 
     

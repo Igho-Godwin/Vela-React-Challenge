@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react'
 
+const SideBarMenu =() => {
 
-class SideBarMenu extends Component {
- 
-    render () {
         return (
          
             <div className='font-11 padding-top-50'>
@@ -34,7 +32,6 @@ class SideBarMenu extends Component {
                     </div>
         
         )
-    }
 }
 
     

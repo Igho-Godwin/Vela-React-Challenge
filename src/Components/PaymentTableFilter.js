@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PaymentTableFilter extends Component {
- 
-    render () {
+const PaymentTableFilter = () => {
         return (
          
            <div className='row'>
@@ -54,8 +52,6 @@ class PaymentTableFilter extends Component {
         
         )
     }
-}
-
     
 
 

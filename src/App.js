@@ -1,11 +1,11 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './css/main.css';
 import Header from './Components/Header.js';
 import SideBar from './Components/SideBar.js';
 import Main from './Components/Main.js';
 
-class App extends Component {
-    render () {
+const  App = () =>{
+    
         return (
             
             <div className='row'>
@@ -29,7 +29,7 @@ class App extends Component {
             </div>
         
         )
-    }
+
 }
 
 export default App;

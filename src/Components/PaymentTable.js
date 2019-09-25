@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PaymentTable extends Component {
- 
-    render () {
+const PaymentTable = () => {
+    
         return (
          
            <div className='row'>
@@ -79,8 +78,9 @@ class PaymentTable extends Component {
            </div>
         
         )
-    }
+        
 }
+
 
     
 
